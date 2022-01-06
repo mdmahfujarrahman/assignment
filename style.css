@@ -149,6 +149,33 @@ body {
     text-align: justify;
 }
 /* Pro Section End  */
+.exp {
+    display: flex;
+    text-align: center;
+    margin: 3% 5% 5% 9%;
+}
+.exp h2 {
+    font-size: 35px;
+    color: #fe7622;
+    margin-top: 4%;
+}
+.exp-list {
+    margin-left: 5%;
+    text-align: left;
+    box-shadow: 10px 10px 30px tomato;
+    padding: 20px;
+    border-radius: 10px;
+}
+.exp-list h4 {
+    margin-left: -2%;
+    padding: 10px;
+    font-size: 20px;
+}
+.exp-list h6 {
+    margin-left: -2%;
+    padding: 10px;
+    font-size: 15px;
+}
 /* Fotter section Start */
 footer {
     text-align: center;
