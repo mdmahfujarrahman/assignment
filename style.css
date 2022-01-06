@@ -1,163 +1,166 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
-body{
-    background-color: #2C3440;
-    color: #FDFEFE;
+body {
+    background-color: #2c3440;
+    color: #fdfefe;
 }
 /* Information Section Start */
-.head-sec{
+.head-sec {
     display: flex;
+    align-items: center;
 }
-.info{
+.info {
     width: 50%;
     margin-left: 10%;
     margin-top: 7%;
-    
 }
-.info h1{
+.info h1 {
     padding: 7px 0 10px 10px;
     font-weight: bolder;
-    
 }
-#title{
+
+#title {
     font-size: 2.3rem;
-    border-left: 3px solid #00B020;
-    border-radius: 2px;
-    border-image-slice: 5%;
-    
+    border-left: 4px solid #00b020;
+    border-radius: 3px;
+    display: grid;
 }
-.info p{
+#title h1:first-child {
+    margin-top: -26px;
+}
+#title h1:last-child {
+    margin-bottom: -30px;
+}
+.info p {
     font-size: 20px;
     margin-bottom: 22px;
     margin-top: 22px;
 }
-#title-img{
+#title-img {
     width: 67%;
-
 }
 /* Information Section End */
-.btn{
+.btn {
     text-decoration: none;
-    background-image: linear-gradient(#00B020, #2ECC71);
+    background-image: linear-gradient(#00b020, #2ecc71);
     padding: 10px;
     margin: 15px 0;
     color: #fff;
     border-radius: 5px;
 }
-.brand-color{
-    color: #EB984E;
+.brand-color {
+    color: #eb984e;
 }
 /* Strategy Section Start */
-.strategy h2{
+.strategy h2 {
     text-align: center;
     font-size: 40px;
     margin: 3% 0;
 }
-.strategy-list{
+.strategy-list {
     display: flex;
     justify-content: center;
 }
-.strategy-plan{
-    
+.strategy-plan {
     margin: 15px;
     max-width: 26%;
     padding: 25px;
     text-align: center;
     border-radius: 25px;
 }
-#mission{
-    background-color: #ABEBC6;
+#mission {
+    background-color: #21618c;
 }
-#vision{
-    background-color: #AED6F1;
+#vision {
+    background-color: #aed6f1;
 }
-#goals{
-    background-color: #F2D7D5;
+#goals {
+    background-color: #f2d7d5;
 }
-.strategy-plan img{
+.strategy-plan img {
     width: 60%;
     padding-left: 25px;
 }
-.strategy-plan p{
+.strategy-plan p {
     text-align: justify;
 }
-.strategy-plan h3{
+.strategy-plan h3 {
     font-size: 35px;
 }
 /* Strategy Section End */
 /* Dev Section Start */
-.dev{
+.dev {
     display: flex;
 }
-.dev-info{
+.dev-info {
     width: 50%;
     margin: 5% 0;
 }
-.dev-info img{
+.dev-info img {
     max-width: 70%;
     margin-left: 18%;
     border-radius: 25px;
 }
-.dev-info h2{
+.dev-info h2 {
     font-size: 34px;
     font-weight: bolder;
     padding: 5px;
 }
-.dev-info p{
+.dev-info p {
     margin: 30px 0;
     width: 80%;
 }
-#info-dev{
+#info-dev {
     margin-top: 9%;
 }
 /* Dev Section End */
 /* Pro Section Start */
-.pro{
+.pro {
     display: flex;
 }
-.pro-info{
+.pro-info {
     width: 50%;
-    margin: 5% 0 5% 9% ;
+    margin: 5% 0 5% 9%;
     /* margin-top: 5%;
     margin-left: ; */
 }
-.pro-img{
+.pro-img {
     width: 70%;
     margin: 3% 5% 5% 9%;
 }
-.pro-img img{
+.pro-img img {
     width: 70%;
     margin-left: 18%;
     /* height: 130%;  */
     border-radius: 25px;
 }
-.pro-info h2{
+.pro-info h2 {
     font-size: 30px;
     font-weight: bold;
     padding: 5px;
 }
-.pro-info p{
+.pro-info p {
     margin: 30px 0;
     width: 140%;
     text-align: justify;
 }
 /* Pro Section End  */
 /* Fotter section Start */
-footer{
+footer {
     text-align: center;
     background-color: black;
     padding: 50px;
 }
-footer h2{
+footer h2 {
     font-size: 30px;
     padding-bottom: 20px;
     font-weight: bold;
 }
-footer span{
-    color: #00B020;
+footer span {
+    color: #00b020;
 }
 /* Fotter section End */
