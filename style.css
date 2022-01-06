@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     background-color: #14181C;
     color: #fff;
 }
 .head-sec{
-    /* display: flex; */
+    display: flex;
 }
 .info{
     width: 50%;
@@ -17,19 +18,32 @@ body{
     
 }
 .info h1{
-    font-size: 3rem;
-    padding: 20px 0;
-    border-left: ;
+    padding: 7px 0 10px 10px;
+    
+}
+#title{
+    font-size: 2.1rem;
+    border-left: 3px solid #00B020;
+    border-radius: 2px;
+    border-image-slice: 5%;
+    
+}
+.brand-color{
+    color: #EB984E;
 }
 .info p{
     font-size: 20px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 22px;
+    margin-top: 22px;
+}
+#title-img{
+    width: 500px;
 }
 .btn{
     text-decoration: none;
     background-image: linear-gradient(#00B020, #2ECC71);
     padding: 10px;
+    margin: 15px 0;
     color: #fff;
     border-radius: 5px;
 }
