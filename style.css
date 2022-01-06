@@ -20,6 +20,7 @@ body{
 }
 .info h1{
     padding: 7px 0 10px 10px;
+    font-weight: bolder;
     
 }
 #title{
@@ -28,9 +29,6 @@ body{
     border-radius: 2px;
     border-image-slice: 5%;
     
-}
-.brand-color{
-    color: #EB984E;
 }
 .info p{
     font-size: 20px;
@@ -50,6 +48,47 @@ body{
     color: #fff;
     border-radius: 5px;
 }
+.brand-color{
+    color: #EB984E;
+}
 /* Strategy Section Start */
-
+.strategy{
+    
+}
+.strategy h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 3% 0;
+}
+.strategy-list{
+    display: flex;
+    justify-content: center;
+}
+.strategy-plan{
+    
+    margin: 15px;
+    max-width: 20%;
+    padding: 25px;
+    text-align: center;
+    border-radius: 25px;
+}
+#mission{
+    background-color: #ABEBC6;
+}
+#vision{
+    background-color: #AED6F1;
+}
+#goals{
+    background-color: #F2D7D5;
+}
+.strategy-plan img{
+    width: 60%;
+    padding-left: 25px;
+}
+.strategy-plan p{
+    text-align: justify;
+}
+.strategy-plan h3{
+    font-size: 35px;
+}
 /* Strategy Section Start */
