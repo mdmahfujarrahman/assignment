@@ -8,6 +8,7 @@ body{
     background-color: #14181C;
     color: #fff;
 }
+/* Information Section Start */
 .head-sec{
     display: flex;
 }
@@ -37,8 +38,10 @@ body{
     margin-top: 22px;
 }
 #title-img{
-    width: 500px;
+    width: 55%;
+
 }
+/* Information Section End */
 .btn{
     text-decoration: none;
     background-image: linear-gradient(#00B020, #2ECC71);
@@ -47,3 +50,6 @@ body{
     color: #fff;
     border-radius: 5px;
 }
+/* Strategy Section Start */
+
+/* Strategy Section Start */
