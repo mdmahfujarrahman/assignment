@@ -44,6 +44,7 @@ body {
     width: 67%;
 }
 /* Information Section End */
+/* Brand Section Start */
 .btn {
     text-decoration: none;
     background-image: linear-gradient(#c0392b, #d98880);
@@ -55,6 +56,7 @@ body {
 .brand-color {
     color: #fe7622;
 }
+/* Brand Section End */
 /* Strategy Section Start */
 .strategy h2 {
     text-align: center;
@@ -125,8 +127,6 @@ body {
 .pro-info {
     width: 50%;
     margin: 5% 0 5% 9%;
-    /* margin-top: 5%;
-    margin-left: ; */
 }
 .pro-img {
     width: 70%;
@@ -135,7 +135,6 @@ body {
 .pro-img img {
     width: 70%;
     margin-left: 18%;
-    /* height: 130%;  */
     border-radius: 25px;
 }
 .pro-info h2 {
@@ -149,6 +148,7 @@ body {
     text-align: justify;
 }
 /* Pro Section End  */
+/* Exp Section Start  */
 .exp {
     display: flex;
     text-align: center;
@@ -156,7 +156,8 @@ body {
 }
 .exp h2 {
     font-size: 35px;
-    color: #fe7622;
+    font-weight: bolder;
+    color: #e0d302;
     margin-top: 4%;
 }
 .exp-list {
@@ -176,6 +177,7 @@ body {
     padding: 10px;
     font-size: 15px;
 }
+/* Exp Section End  */
 /* Fotter section Start */
 footer {
     text-align: center;
